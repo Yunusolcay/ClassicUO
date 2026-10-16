@@ -5,6 +5,12 @@ ClassicUO fork'u üzerinde, kendi shard'ım Nimloth (Sphere/Source-X ve ileride
 kendi emülatörüm SphereNet) için çok daha kaliteli görüntü sunan bir UO istemcisi.
 Oynanış ve protokol uyumluluğu korunur; değişiklikler görsel katmanda yoğunlaşır.
 
+## Taban
+- Kod: upstream ClassicUO `main` (`ee79d7eb`, 2025-11-26), .NET 10, submodule'ler `external/` altında.
+  Eski 2020 kopyası `legacy/2020` dalında, yalnızca referans.
+- Referans UO verisi: `D:\Games\Electronic Arts\Ultima Online Classic` (7.0.112.75).
+  Protokol hedefi: 7.0.20 (bkz. docs/DECISIONS.md D-003).
+
 ## Görsel hedefler (öncelik sırasıyla)
 1. Dinamik ışık + gece/gündüz döngüsü
 2. Yumuşak gölgeler

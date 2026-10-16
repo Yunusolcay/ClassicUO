@@ -1,5 +1,9 @@
 # Dinamik Işık Sistemi – Tasarım Planı (M1)
 
+> Not: Teknik (D-001) tabandan bağımsızdır. Dosya yolları, kancalar ve görev ayrıntıları **MIG-4**
+> görevinde yeni tabana göre güncellenecek (upstream'de ışık kodu evrildi: `ClassicUO.Renderer/Lights/Light.cs`
+> atlas, `ClassicUO.Renderer/RenderTargets.cs`, `ClassicUO.Client/Game/Data/LightShaderData.cs` RGB + eğri).
+
 Önkoşul okuma: `docs/arch/rendering.md` §3 (mevcut ışık sistemi) ve §6 (genişletme noktaları).
 
 ## 1. Hedefler

@@ -1,5 +1,10 @@
 # Render Pipeline Haritası
 
+> ⚠️ **ESKİ TABAN.** Bu harita 2020 snapshot'ı (`211d4b0b`, `legacy/2020` dalı) için yazıldı.
+> Taban D-002 ile güncel upstream'e taşındı; harita **MIG-3** görevinde yeni koda göre yenilenecek.
+> O zamana kadar yalnızca kavramsal referanstır; dosya yolları geçersizdir (kod artık
+> `src/ClassicUO.Client`, `src/ClassicUO.Renderer`, `src/ClassicUO.Assets` projelerinde).
+
 > Kod tabanı: ClassicUO 2020-05 snapshot (`211d4b0b`), .NET Framework 4.7, C# 7.3, FNA,
 > shader'lar `fx_2_0` (vs_3_0 / ps_3_0). Tüm yollar `src/` altına göredir.
 > Satır numaraları bu commit için geçerlidir; kod değiştikçe kayabilir, metot adları esastır.
